@@ -10,6 +10,6 @@
 	<canvas id="canvas"></canvas>			
 
 </body>
-<script  src="background_script.js" ></script>
+<script  src="..\background_script.js" ></script>
  
 </html>
