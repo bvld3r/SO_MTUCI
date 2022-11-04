@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	
 	<title>Документация</title>
-	<link rel="stylesheet" type="text/css" href="index_style.css">
+	<link rel="stylesheet" type="text/css" href="documents_style.css">
 </head>
 <body>
 	<canvas id="canvas"></canvas>			

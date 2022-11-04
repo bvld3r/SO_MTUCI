@@ -4,11 +4,10 @@
 	<meta charset="utf-8">
 	
 	<title>Новости</title>
-	<link rel="stylesheet" type="text/css" href="index_style.css">
+	<link rel="stylesheet" type="text/css" href="feed_style.css">
 </head>
 <body>
 	<canvas id="canvas"></canvas>			
-
 </body>
 <script  src="..\background_script.js" ></script>
  
