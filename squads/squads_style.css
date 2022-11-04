@@ -4,6 +4,8 @@ body {
 	min-height: 100vh;
 	font-family: Futura, sans-serif;
 }
+
+
 #canvas{
 	position: absolute;
 	display: block;
@@ -12,36 +14,46 @@ body {
 	z-index: -1;
 }
 
-a { 
+
+a{ 
     text-decoration: none; /* Отменяем подчеркивание у ссылки */
-   } 
+}
+
 
 #bam{
 	left:15%;
 	width: 11.3%;
+	bottom: 40%;
 }
+
 
 #contact{
 	left:42.5%;
 	width: 11%;
+	bottom: 40%;
 }
+
 
 #svyaz{
-	left: 70%;
+	left: 69.5%;
 	width: 11%;
+	bottom: 40%;
 }
 
+
 #way{
-	bottom: 10%;
+	bottom: 3%;
 	left: 28.70%;
 	width: 9%;
 }
 
+
 #it{
-	bottom: 10%;
+	bottom: 3%;
 	left: 56.25%;
 	width: 11%;
 }
+
 
 .blocklogoname{
 	width: 3%;
@@ -49,10 +61,12 @@ a {
 	position: absolute;
 }
 
+
 .logo{
 	width: 41%;
 	padding-top: 10px ;
 }
+
 
 .container{
 	width: 100%;
@@ -62,16 +76,18 @@ a {
 	flex-wrap:wrap;
 }
 
+
 .container .card{
 	position: relative;
 }
+
 
 .container .card .face{
 	width:150%;
 	height: 200px;
 	transition:.2s;
-
 }
+
 
 .container .card .face.face1{
 	position: relative;
@@ -82,8 +98,8 @@ a {
 	align-items: center;
 	z-index: 1;
 	transform: translateY(100px);
-
 }
+
 
 .container .card:hover .face.face1{
 	transform: translateY(0);
@@ -96,8 +112,8 @@ a {
     	0 0 50px #fff,
     	-10px 0 80px #f0f,
     	10px 0 80px #0ff;
-
 }
+
 
 .container .card .face.face1 .content{
 	opacity: 1;
@@ -105,9 +121,11 @@ a {
 	text-align: center;
 }
 
+
 .container .card:hover .face.face1 .content{
 	opacity: 1;
 }
+
 
 .container .card .face.face1 .content i{
 	font-size: 3em;
@@ -116,21 +134,22 @@ a {
 
 }
 
+
 .container .card .face.face1 .content h2{
 	font-size: 1em;
 	color: white;
 	text-align: center;
-
 }
+
 
 .container .card .face.face1 .content a{
 	transition: .5s;
-
 }
+
 
 .container .card .face.face2{
 	position: absolute;
-	background: whitesmoke;
+	background: rgb(225, 176, 255);
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -138,23 +157,24 @@ a {
 	box-sizing: border-box;
 	box-shadow: 0 20px 50px rgba(0,0,0,.8);
 	transform: translateY(-100px);
-	 position: relative;
+	position: relative;
 
 }
+
 
 .container .card:hover .face.face2{       /*индекс блюр на текст*/
     transform: translateY(0);
     z-index: 200;
 }
 
+
 .container .card .face.face2 .content p, a{                  
 	font-size: 13pt;
 	margin: 0 ;
 	padding: 0;
 	color:rgba(20, 20, 20, 1 );
-
-
 }
+
 
 .container .card .face.face2 .content a{         /**Кнопка Подробнее**/
 	text-decoration:none;
@@ -167,9 +187,115 @@ a {
 	display: inline-block;
 }
 
+
 .container .card .face.face2 .content a:hover{
 	background: #333 ;
 	color: whitesmoke; 
 	box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5);
+}
+
+
+.navigation{
+	background-color: rgba(1, 1, 1, 0.75);
+	height: 70px;
+	width: 100%;
+	display: flex;
+	position: fixed;
 
 }
+
+
+.navigation_button{
+  position: absolute;
+  margin-left: 0px;
+  display: block;
+  color: white;
+  font-size: 14px;
+  font-family: "montserrat";
+  text-decoration: none;
+  margin-top: 15px;
+  border: 2px solid #8c2ec7;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 1s all ease;
+  width: 120px;
+  text-align: center;
+
+}
+
+
+#button_feed{
+	left: 15%;
+}
+
+
+#button_squads{
+	left: 23%;
+}
+
+
+#button_gallery{
+	left: 31%;
+}
+
+
+#button_documents{
+	left: 39%;
+}
+
+
+
+
+
+.navigation_button::before{
+  background: #8c2ec7;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: -1;
+  transition: all 0.2s ease;
+
+}
+
+
+.navigation_button::before{
+  width: 100%;
+  height: 0%;
+  transform: translate(-50%,-50%) rotate(45deg);
+
+}
+
+
+.navigation_button:hover::before{
+  height: 380%;
+
+}
+
+#logo_mtuci{
+	width: 9%;
+	position: fixed;
+	left: 40px;
+	height: 70px;
+}
+
+a img{
+	border: none;
+	width: 100%;
+	height: 100%;
+}
+
+
+#logo_mtuci:hover{
+	background-color: #4f1970;
+	width: 10%;
+	height: 80px;
+	top : -5px;
+	left: 32px;
+	border-radius: 40px;
+
+
+

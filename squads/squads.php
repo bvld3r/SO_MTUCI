@@ -10,6 +10,16 @@
 
 	<canvas id="canvas"></canvas>
 
+
+	<div class="navigation">
+		<a id="logo_mtuci" href="..\"><img src="..\images\logo_mtuci_01.png""></a>
+		<a href="squads.php" id="button_feed" class="navigation_button">Новости</a>
+		<a href="squads.php" id="button_squads" class="navigation_button">Отряды</a>
+		<a href="squads.php" id="button_gallery" class="navigation_button">Фотоальбом</a>
+		<a href="squads.php" id="button_documents" class="navigation_button">Документы</a>
+	</div>
+
+
 	<div class="blocklogoname" id="bam">
 		<div class="container">
     		<div class="card">
@@ -22,8 +32,7 @@
        			</div>
        			<div class="face face2">
         			<div class="content">
-           				<p>Студенческий отряд «БАМ» – проводники, которые путешествуют по городам. Работа в РЖД, профессиональный рост, романтика дальних дорог.
-</p>
+           				<p>Студенческий отряд «БАМ» – проводники, которые путешествуют по городам. Работа в РЖД, профессиональный рост, романтика дальних дорог.</p>
            				<a href="..\squads\bam\bam.php" type="button">Подробнее</a>
            			</div>
          		</div>
@@ -94,7 +103,6 @@
 	</div>
 
 
-
 	<div class="blocklogoname" id="it">
 		<div class="container">
     		<div class="card">
@@ -116,36 +124,11 @@
 	</div>
 
 
- 
-	<!--<a href="..\squads\bam\bam.php"> 
-		<div class="blocklogoname" id="bam">
-
-			
-	 	</div>
-	</a>
-
-	<div class="blocklogoname" id="contact" >
-		<img class="logo"  id="contact" src="..\images\logo_contact_01.png">
-	</div >
-
-	<div class="blocklogoname" id="svyaz" >
-		<img class="logo"  id="svyaz" src="..\images\logo_svyaz_01.png">
-	</div>
-
-	<div  class="blocklogoname" id="way">
-		<img class="logo"  id="way" src="..\images\logo_way_01.png">
-	</div>
-
-	<div class="blocklogoname" id="it" >
-		<img class="logo"  id="it" src="..\images\logo_way_01.png">
-	</div>
-
-	-->
-
 
 
 
 </body>
+
 <script  src="..\background_script.js" ></script>
  
 </html>
