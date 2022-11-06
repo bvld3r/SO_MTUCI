@@ -4,10 +4,115 @@ body {
 	min-height: 100vh;
 	font-family: Futura, sans-serif;
 }
+
+
 #canvas{
 	position: absolute;
 	display: block;
 	top: 0;
 	left: 0;
 	z-index: -1;
+}
+
+
+a{ 
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+}
+
+
+.navigation{
+	background-color: rgba(1, 1, 1, 0.75);
+	height: 70px;
+	width: 100%;
+	display: flex;
+	position: fixed;
+}
+
+
+.navigation_button{
+	position: absolute;
+	margin-left: 0px;
+	display: block;
+	color: white;
+	font-size: 14px;
+	font-family: "montserrat";
+	text-decoration: none;
+	margin-top: 15px;
+	border: 2px solid #8c2ec7;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-transform: uppercase;
+	overflow: hidden;
+	transition: 1s all ease;
+	width: 120px;
+	text-align: center;
+}
+
+
+#button_feed{
+	left: 15%;
+}
+
+
+#button_squads{
+	left: 23%;
+}
+
+
+#button_gallery{
+	left: 31%;
+}
+
+
+#button_documents{
+	left: 39%;
+}
+
+
+.navigation_button::before{
+	background: #8c2ec7;
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	z-index: -1;
+	transition: all 0.2s ease;
+}
+
+
+.navigation_button::before{
+	width: 100%;
+	height: 0%;
+	transform: translate(-50%,-50%) rotate(45deg);
+}
+
+
+.navigation_button:hover::before{
+	height: 380%;
+}
+
+
+#logo_mtuci{
+	width: 9%;
+	position: fixed;
+	left: 40px;
+	height: 70px;
+}
+
+
+a img{
+	border: none;
+	width: 100%;
+	height: 100%;
+}
+
+
+#logo_mtuci:hover{
+	background-color: #4f1970;
+	width: 10%;
+	height: 80px;
+	top : -5px;
+	left: 32px;
+	border-radius: 40px;
 }
