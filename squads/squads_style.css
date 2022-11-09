@@ -1,5 +1,10 @@
 body {
-	background-color: #111;
+	margin: 0px;
+	background-color: rgb(43, 39, 39);
+}
+
+a {
+	text-decoration: none;
 }
 
 #canvas {
@@ -12,7 +17,34 @@ body {
 }
 
 .navigation {
-	padding-left: 100px;
+	padding-left: 50px;
+	display: flex;
+	height: 70px;
+	background-color: black;
+}
+
+.navigation_buttons {
+	display: flex;
+	align-items: center;
+	padding-left: 60px;
+	width: 700px;
+	justify-content: space-around;
+
+}
+
+.navigation_button:hover {
+	transition: 0.4s;
+	background-color: rgb(69, 27, 109);
+}
+
+.navigation_button {
+	width: 140px;
+	height: 30px;
+	border: 1px solid rgb(69, 27, 109);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: aliceblue;
 }
 
 .main {
@@ -25,7 +57,7 @@ body {
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-around;
-	width: 1100px;
+	width: 1250px;
 }
 
 .container_bam,
@@ -33,8 +65,17 @@ body {
 .container_communication,
 .container_way,
 .container_it {
-	width: 300px;
-	background-color: rgb(94, 36, 149);
+	width: 350px;
+	background-color: rgb(69, 27, 109);
+	height: 500px;
+	margin-bottom: 70px;
+	margin-right: 50px;
+}
+
+.logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 /* body {
