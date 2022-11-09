@@ -13,7 +13,6 @@ a {
 	top: 0;
 	left: 0;
 	z-index: -1;
-	height: 100%;
 }
 
 .navigation {
@@ -23,13 +22,18 @@ a {
 	background-color: black;
 }
 
+#logo_mtuci:hover {
+	transition: 0.3s;
+	background-color: rgb(69, 27, 109);
+	border-radius: 100px;
+}
+
 .navigation_buttons {
 	display: flex;
 	align-items: center;
 	padding-left: 60px;
 	width: 700px;
 	justify-content: space-around;
-
 }
 
 .navigation_button:hover {
@@ -45,9 +49,11 @@ a {
 	justify-content: center;
 	align-items: center;
 	color: aliceblue;
+	border-radius: 10px;
 }
 
 .main {
+	padding-top: 50px;
 	display: flex;
 	justify-content: center;
 }
