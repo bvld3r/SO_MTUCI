@@ -14,7 +14,7 @@
 
 	<header>
 		<div class="navigation">
-			<a id="logo_mtuci" href="..\"><img src="..\images\logo_mtuci_01.png" height="70px" width="140px"></a>
+			<a class="logo_mtuci" href="..\"><img src="..\images\logo_mtuci_01.png" height="70px" width="140px"></a>
 			<div class="navigation_buttons">
 				<a href="http://so.mtuci.ru/feed/feed.php" id="button_feed" class="navigation_button">Новости</a>
 				<a href="http://so.mtuci.ru/squads/squads.php" id="button_squads" class="navigation_button">Отряды</a>
@@ -35,7 +35,7 @@
 			<div class="container_bam">
 				<div class="content_logo">
 					<i class="fab fa-windows"></i> 
-					<img class="logo" src="..\images\logo_bam_01.png" width="300px" height="300px">           
+					<img class="logo" src="..\images\logo_bam_01.png">           
 					<a href="..\squads\bam\bam.php" text-decoration:none><h2>БАМ</h2></a>
 				</div>
 				<div class="content_text">
@@ -48,7 +48,7 @@
 			<div class="container_contact">
 				<div class="content_logo">
 					<i class="fab fa-windows"></i> 
-					<img class="logo" src="..\images\logo_contact_01.png" width="300px" height="300px">           
+					<img class="logo" src="..\images\logo_contact_01.png">           
 					<a href="..\squads\bam\bam.php" text-decoration:none><h2>Контакт</h2></a>
 				</div>
 				<div class="content_text">
@@ -61,7 +61,7 @@
 			<div class="container_communication">
 				<div class="content_logo">
 					<i class="fab fa-windows"></i> 
-					<img class="logo" src="..\images\logo_svyaz_01.png" width="300px" height="300px">           
+					<img class="logo" src="..\images\logo_svyaz_01.png">           
 					<a href="..\squads\svyaz\svyaz.php" text-decoration:none><h2>Связь</h2></a>
 				</div>
 				<div class="content_text">
@@ -73,7 +73,7 @@
 			<div class="container_way">
 				<div class="content_logo">
 					<i class="fab fa-windows"></i> 
-					<img class="logo" src="..\images\logo_way_01.png" width="300px" height="300px">           
+					<img class="logo" src="..\images\logo_way_01.png">           
 					<a href="..\squads\way\way.php" text-decoration:none><h2>Путь</h2></a>
 				</div>
 				<div class="content_text">
@@ -86,7 +86,7 @@
 			<div class="container_it">
 				<div class="content_logo">
 					<i class="fab fa-windows"></i> 
-					<img class="logo" src="..\images\logo_it_01.png" width="300px" height="300px">           
+					<img class="logo" src="..\images\logo_it_01.png">           
 					<a href="..\squads\it\it.php" text-decoration:none><h2>IT отряд</h2></a>
 				</div>
 				<div class="content_text">

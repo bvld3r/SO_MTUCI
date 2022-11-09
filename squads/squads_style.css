@@ -16,16 +16,25 @@ a {
 }
 
 .navigation {
+	text-transform: uppercase;
 	padding-left: 50px;
 	display: flex;
-	height: 70px;
+	height: 80px;
 	background-color: black;
 }
 
-#logo_mtuci:hover {
-	transition: 0.3s;
+.logo_mtuci {
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+	height: 60px;
+}
+
+.logo_mtuci:hover {
+	transition: all 0.4s ease;
 	background-color: rgb(69, 27, 109);
 	border-radius: 100px;
+	transform: scale(1.25);
 }
 
 .navigation_buttons {
@@ -43,8 +52,8 @@ a {
 
 .navigation_button {
 	width: 140px;
-	height: 30px;
-	border: 1px solid rgb(69, 27, 109);
+	height: 40px;
+	border: 2px solid rgb(69, 27, 109);
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -62,8 +71,8 @@ a {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: space-around;
-	width: 1250px;
+	justify-content: space-evenly;
+	width: 1000px;
 }
 
 .container_bam,
@@ -71,17 +80,54 @@ a {
 .container_communication,
 .container_way,
 .container_it {
-	width: 350px;
-	background-color: rgb(69, 27, 109);
-	height: 500px;
-	margin-bottom: 70px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 250px;
+	height: 200px;
+	margin-bottom: 100px;
 	margin-right: 50px;
+	transition: all 0.3s;
+	overflow: hidden;
+}
+
+.container_bam:hover,
+.container_contact:hover,
+.container_communication:hover,
+.container_way:hover,
+.container_it:hover {
+	padding-bottom: 80px;
+	transform: scale(1.2);
+}
+
+.container_bam:hover,
+.container_contact:hover,
+.container_communication:hover,
+.container_way:hover,
+.container_it:hover .content_text {
+	overflow: visible;
+}
+
+.content_logo {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	background-color: rgb(69, 27, 109);
+	width: 250px;
 }
 
 .logo {
+	padding-top: 10px;
+	width: 120px;
+	height: 120px;
+}
+
+.content_text {
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	width: 250px;
+	background-color: rgb(69, 27, 109);
 }
 
 /* body {
